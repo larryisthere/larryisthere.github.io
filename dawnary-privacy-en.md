@@ -9,13 +9,20 @@ Dawnary ("we," "our," or "this app") is a mobile application focused on personal
 
 ## Information Collection and Use
 
+### Data Processor Information
+
+**Data Processor:**
+- **Developer Name:** larryisthere
+- **Contact:** larryisthere@gmail.com
+- **App Identifier:** com.larryisthere.diary
+
 ### Information We Collect
 
 **Locally Stored Data:**
 - Diary content you create (including text and images)
 - Creation and editing timestamps of diary entries
 - Application usage preferences
-- Location Information (Optional): If you enable location recording, we record the city name where you create diary entries (city-level only, we do not record precise location)
+- **Location Information (Sensitive Personal Information, Optional):** If you enable location recording, we record the city name where you create diary entries (city-level only, we do not record precise location). Location information is considered sensitive personal information. We only collect it with your explicit consent and use it solely to display city names in diary entries to enhance context.
 
 ### Information We Do Not Collect
 
@@ -36,7 +43,8 @@ Dawnary ("we," "our," or "this app") is a mobile application focused on personal
 **iCloud Backup (Optional):**
 - If you enable iCloud backup, your diary data will be synced across your devices through Apple's iCloud service
 - iCloud backup uses your Apple ID, and data is stored on Apple's iCloud servers
-- You can disable iCloud backup at any time in settings
+- **Data Storage Location:** iCloud data may be stored on servers located outside your country/region, which may involve cross-border data transfer
+- **Cross-Border Transfer Notice:** If you use iCloud backup, your data may be transferred to Apple's servers located outside your country/region. This data transfer is managed by Apple Inc. and is subject to Apple's privacy policy and terms of service. You can disable iCloud backup at any time in settings to stop cross-border data transfer
 - iCloud data is protected by Apple's privacy policy and terms of service
 
 ### Purpose of Data Use
@@ -62,11 +70,13 @@ This app may require the following permissions, all of which are optional:
 - Usage: Only used when you actively use the camera feature
 - Data Collection: We do not collect or upload photos you take
 
-**Location Permission:**
-- Purpose: Record the city name where you create diary entries (city-level only)
-- Usage: Only used when you enable location recording
+**Location Permission (Sensitive Personal Information):**
+- Purpose: Record the city name where you create diary entries (city-level only) to display city information in diary entries and enhance context
+- Necessity: Location information helps enhance diary context, but this feature is completely optional and does not affect core app functionality
+- Usage: Only used when you explicitly consent and enable location recording
 - Data Collection: We only record city names (e.g., "New York"), not precise GPS coordinates or other location data
-- Control: You can disable location recording at any time in settings
+- Data Storage: Location information is stored only locally on your device and is not uploaded to any servers
+- Control: You can disable location recording at any time in settings. Once disabled, we will no longer collect location information
 
 All permissions can be revoked at any time in system settings.
 
@@ -110,13 +120,31 @@ This app is suitable for users of all ages. Since we do not collect any personal
 
 ## Your Rights
 
-You have the right to:
+You have the following rights:
+
+**Right to Access:**
 - Access all data stored locally on your device
+- Understand how we collect and process your personal information
+
+**Right to Delete:**
 - Delete any or all diary content
-- Disable location recording in settings
-- Disable iCloud backup in settings
+- Delete location information (by disabling location recording in settings)
 - Completely uninstall the app to remove all data on your device
+
+**Right to Withdraw Consent:**
+- Disable location recording in settings at any time to withdraw consent for location information collection
+- Disable iCloud backup in settings at any time to withdraw consent for cross-border data transfer
+
+**Right to Rectification:**
+- Edit and correct your diary content at any time
+
+**Other Rights:**
 - Understand how we handle your data (this policy provides detailed information)
+- Provide feedback or suggestions regarding personal information processing activities
+
+**How to Exercise Your Rights:**
+- You can exercise the above rights through the app's settings
+- For assistance, please contact us at larryisthere@gmail.com
 
 ## Policy Changes
 
@@ -135,9 +163,19 @@ If you have any questions or suggestions about this privacy policy, please conta
 
 ## Legal Notice
 
-By using this app, you agree to be bound by this privacy policy. This policy may be updated in accordance with applicable laws.
+**Applicable Laws:**
+- This privacy policy applies to users worldwide
+- This policy complies with applicable privacy laws and regulations, including but not limited to GDPR (for EU users), CCPA (for California users), and PIPL (for China users)
+
+**Consent and Authorization:**
+- By using this app, you agree to be bound by this privacy policy
+- For sensitive personal information (such as location information), we will process it only with your explicit consent
+- You have the right to withdraw your consent at any time. Withdrawal of consent does not affect the lawfulness of processing based on consent before its withdrawal
+
+**Policy Updates:**
+- This policy may be updated in accordance with applicable laws
+- For significant changes, we will notify you within the app and update the "Last Updated" date
 
 ---
 
 **Important Notice:** Dawnary's core functionality is completely offline, and all your data is securely stored on your device by default. If you enable iCloud backup, data will be synced across your devices through Apple's iCloud service. We do not access or collect any of your personal information, nor do we upload data to any third-party servers.
-
