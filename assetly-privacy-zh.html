@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全景记账 - 隐私政策</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #007AFF;
+            margin-bottom: 10px;
+            font-size: 32px;
+        }
+        h2 {
+            color: #333;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 24px;
+            border-bottom: 2px solid #007AFF;
+            padding-bottom: 10px;
+        }
+        h3 {
+            color: #555;
+            margin-top: 20px;
+            margin-bottom: 12px;
+            font-size: 20px;
+        }
+        p {
+            margin-bottom: 15px;
+            color: #666;
+        }
+        ul {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+            color: #666;
+        }
+        .highlight {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #007AFF;
+            margin: 20px 0;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+            text-align: center;
+            color: #999;
+            font-size: 14px;
+        }
+        .last-updated {
+            color: #999;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>全景记账 隐私政策</h1>
+        <p class="last-updated">最后更新：2024年12月</p>
+        
+        <p>全景记账高度重视您的数据安全和隐私保护。本隐私政策说明了我们如何收集、使用和保护您的信息。</p>
+
+        <h2>数据收集和使用</h2>
+        
+        <h3>本地存储的数据（完全保密）</h3>
+        <p>以下数据完全存储在您的设备本地，不会上传到任何服务器：</p>
+        <ul>
+            <li>您的所有资产信息（资产名称、数量、价格、分类等）</li>
+            <li>资产变更历史记录</li>
+            <li>资产价值历史数据</li>
+            <li>资产分析报告和缓存</li>
+            <li>应用设置（货币、价格更新方式、时区等）</li>
+        </ul>
+        <p>这些数据使用 iOS 系统的本地存储机制保存，只有您能够访问。</p>
+
+        <h3>服务端交互的数据</h3>
+        <p>为了提供资产价格查询和智能搜索功能，应用需要与服务端进行交互：</p>
+        
+        <h4>1. 资产符号搜索</h4>
+        <ul>
+            <li>当您搜索资产（如股票、基金）时，我们只会发送搜索关键词（如"AAPL"、"苹果"）</li>
+            <li>服务端仅返回匹配的资产符号信息（名称、代码、市场等）</li>
+            <li>搜索关键词不会被保存，也不会与您的身份信息关联</li>
+            <li>服务端会缓存搜索结果以提高响应速度，但这是匿名的，不包含用户标识</li>
+        </ul>
+
+        <h4>2. 价格查询</h4>
+        <ul>
+            <li>当您更新资产价格时，我们只发送资产符号（如"AAPL"、"BTC-USD"）</li>
+            <li>服务端返回该符号的当前价格和历史价格数据</li>
+            <li>服务端会保存价格历史数据用于缓存和统计分析，但这些数据是公开的市场数据，不涉及您的个人信息</li>
+            <li>价格查询请求不会携带任何能识别您个人身份的信息</li>
+        </ul>
+
+        <div class="highlight">
+            <h3>重要说明</h3>
+            <ul>
+                <li><strong>服务端无法识别您是谁</strong>：我们不会发送用户ID、设备标识、账户信息等任何可以识别您个人身份的数据</li>
+                <li><strong>服务端不会保存您的资产组合</strong>：服务端只保存公开的市场价格数据，不会知道您持有哪些资产、持有多少数量</li>
+                <li><strong>您的资产数据完全在本地</strong>：即使服务端出现故障或被访问，也不会泄露您的个人资产信息</li>
+            </ul>
+        </div>
+
+        <h2>数据安全</h2>
+        <p>我们使用 iOS 系统的标准安全机制保护您的数据：</p>
+        <ul>
+            <li><strong>数据加密存储</strong>：所有本地数据使用 iOS 系统的加密机制存储</li>
+            <li><strong>应用沙盒隔离</strong>：应用数据与其他应用隔离，确保安全</li>
+            <li><strong>无网络传输个人资产数据</strong>：您的资产信息不会通过网络传输</li>
+        </ul>
+
+        <h2>数据分享</h2>
+        <p>我们不会与任何第三方分享您的个人资产数据。我们不会：</p>
+        <ul>
+            <li>出售、出租或交易您的个人信息</li>
+            <li>将您的数据用于广告目的</li>
+            <li>与数据分析公司分享您的数据</li>
+            <li>在未经您同意的情况下分享您的数据</li>
+        </ul>
+
+        <h2>您的权利</h2>
+        <p>您对自己的数据拥有完全的控制权：</p>
+        <ul>
+            <li><strong>访问权</strong>：您可以随时在应用中查看所有存储的数据</li>
+            <li><strong>删除权</strong>：您可以随时删除应用中的所有数据（通过删除应用）</li>
+            <li><strong>导出权</strong>：您可以通过应用功能导出您的数据</li>
+            <li><strong>修改权</strong>：您可以随时修改或更新您的资产信息</li>
+        </ul>
+
+        <h2>儿童隐私</h2>
+        <p>我们的应用适合所有年龄用户使用。我们不会故意收集儿童的个人信息。如果您是儿童的父母或监护人，并发现您的孩子向我们提供了个人信息，请通过邮箱联系我们，我们将删除这些信息。</p>
+
+        <h2>隐私政策变更</h2>
+        <p>我们可能会不时更新本隐私政策。任何变更都会在本页面发布，并更新"最后更新"日期。我们建议您定期查看本隐私政策以了解最新信息。</p>
+
+        <h2>联系我们</h2>
+        <p>如果您对本隐私政策有任何疑问或 concerns，请通过以下方式联系我们：</p>
+        <ul>
+            <li><strong>邮箱</strong>：<a href="mailto:support@zhoubian.com" style="color: #007AFF;">support@zhoubian.com</a></li>
+            <li><strong>主题</strong>：请注明"隐私政策相关问题"</li>
+        </ul>
+
+        <div class="footer">
+            <p>© 2024 全景记账. 保留所有权利.</p>
+            <p><a href="support.html" style="color: #007AFF; text-decoration: none;">支持页面</a></p>
+        </div>
+    </div>
+</body>
+</html>
+
