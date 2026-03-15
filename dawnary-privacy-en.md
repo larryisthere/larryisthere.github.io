@@ -1,7 +1,7 @@
 # Dawnary - Privacy Policy
 
 **Effective Date:** January 23, 2025  
-**Last Updated:** November 27, 2025
+**Last Updated:** March 15, 2026
 
 ## Overview
 
@@ -22,12 +22,13 @@ Dawnary ("we," "our," or "this app") is a mobile application focused on personal
 - Diary content you create (including text and images)
 - Creation and editing timestamps of diary entries
 - Application usage preferences
-- **Location Information (Sensitive Personal Information, Optional):** If you enable location recording, we record the city name where you create diary entries (city-level only, we do not record precise location). Location information is considered sensitive personal information. We only collect it with your explicit consent and use it solely to display city names in diary entries to enhance context.
+- **Location Information (Sensitive Personal Information, Optional):** If you enable location recording, we record the city name where you create diary entries (city-level only). Location information is considered sensitive personal information. We only collect it with your explicit consent and use it solely to display city names in diary entries to enhance context.
+- **Weather Information (Optional):** If you enable both location and weather recording, the app fetches weather data (temperature, weather condition) from Apple WeatherKit and stores it locally with your diary entry. GPS coordinates are sent transiently to Apple WeatherKit to retrieve the weather for your location; we do not store GPS coordinates ourselves.
 
 ### Information We Do Not Collect
 
 - Personal identification information (name, email, phone number, etc.)
-- Precise location information (we only record city names, not GPS coordinates or other precise location data)
+- Precise location information (we do not store GPS coordinates; they are only sent transiently to Apple WeatherKit when weather recording is enabled, and are not retained by us)
 - Device identifiers
 - Network activity data
 - Any other personal data
@@ -74,8 +75,8 @@ This app may require the following permissions, all of which are optional:
 - Purpose: Record the city name where you create diary entries (city-level only) to display city information in diary entries and enhance context
 - Necessity: Location information helps enhance diary context, but this feature is completely optional and does not affect core app functionality
 - Usage: Only used when you explicitly consent and enable location recording
-- Data Collection: We only record city names (e.g., "New York"), not precise GPS coordinates or other location data
-- Data Storage: Location information is stored only locally on your device and is not uploaded to any servers
+- Data Collection: We only record city names (e.g., "New York"). GPS coordinates are not stored by us, but are sent transiently to Apple WeatherKit when weather recording is also enabled
+- Data Storage: City names and weather data are stored only locally on your device and are not uploaded to our servers
 - Control: You can disable location recording at any time in settings. Once disabled, we will no longer collect location information
 
 All permissions can be revoked at any time in system settings.
@@ -97,15 +98,14 @@ All permissions can be revoked at any time in system settings.
 ## Third-Party Services
 
 **Apple Services:**
-- This app optionally uses Apple's iCloud service for data backup and synchronization
-- iCloud service is subject to Apple's privacy policy and terms of service
-- You can disable iCloud backup at any time in settings
+- **iCloud (Optional):** This app optionally uses Apple's iCloud service for data backup and synchronization. iCloud service is subject to Apple's privacy policy and terms of service. You can disable iCloud backup at any time in settings.
+- **Apple WeatherKit (Optional):** If you enable weather recording, the app calls the Apple WeatherKit API to fetch weather data. WeatherKit receives your GPS coordinates to return weather for your location; this is subject to Apple's privacy policy. We do not store GPS coordinates — only the weather result (temperature, weather condition) is stored locally in your diary entry. You can disable weather recording at any time in settings.
 
 **No Other Third-Party Services:**
 - This app does not integrate any third-party analytics services
 - Does not contain advertising services
 - Does not use any external data collection tools
-- Does not connect to any other cloud services or third-party servers
+- Does not connect to any cloud services or third-party servers other than Apple iCloud and Apple WeatherKit
 
 ## Children's Privacy
 
