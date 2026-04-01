@@ -35,13 +35,13 @@ In the diary list, swipe left on a diary entry and tap the "Delete" button to de
 2. Choose "Select from Photo Library" or "Take Photo"
 3. The image will be automatically inserted at the current cursor position
 
-### How is Location Information Used?
+### How is Location & Weather Used?
 
-- Location recording is optional
-- If enabled, the app records the city name where you create diary entries (city-level only)
-- Location information is only used to display city names in diary entries to enhance context
-- Location information is stored only locally on your device and is not uploaded to any servers
-- You can disable location recording at any time in settings
+- Location & Weather is optional
+- If you grant location access and enable insertion in settings, the app can add your current city and/or weather to diary entries
+- The app stores the city, weather, and the coordinates needed to restore that context in diary metadata
+- This metadata is stored locally on your device and, if iCloud Sync is enabled, in your private iCloud database
+- You can disable future insertion at any time in settings
 
 ### Does the App Require Internet Connection?
 
@@ -72,7 +72,7 @@ We take your privacy seriously. For detailed privacy policy, please visit:
 
 - **Current Version:** 1.0.0
 - **Bundle ID:** com.larryisthere.diary
-- **Minimum System Requirements:** iOS 13.0 or later
+- **Minimum System Requirements:** iOS 15.0 or later
 
 ## Update Log
 
@@ -80,5 +80,4 @@ We continuously improve Dawnary and regularly release updates to fix issues and 
 
 ---
 
-**Last Updated:** November 27, 2025
-
+**Last Updated:** April 2, 2026
