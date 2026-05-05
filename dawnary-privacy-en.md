@@ -1,7 +1,7 @@
 # Dawnary - Privacy Policy
 
 **Effective Date:** January 23, 2025  
-**Last Updated:** April 2, 2026
+**Last Updated:** May 5, 2026
 
 ## Overview
 
@@ -44,6 +44,7 @@ Dawnary ("we," "our," or "this app") is a mobile application focused on personal
 - If you enable iCloud sync, your diary data will be synced across your devices through Apple's iCloud service
 - iCloud backup uses your Apple ID, and data is stored on Apple's iCloud servers
 - If Location & Weather is enabled, related diary metadata may include city names, weather data, and the coordinates needed to restore that context; this metadata syncs only to your private iCloud database
+- If iCloud Sync is enabled, companion letters, companion-letter decision records, user impressions, personal memory, and personal information will also sync to your private iCloud database to keep companion settings and AI companion experiences consistent across your devices
 - **Data Storage Location:** iCloud data may be stored on servers located outside your country/region, which may involve cross-border data transfer
 - **Cross-Border Transfer Notice:** If you use iCloud backup, your data may be transferred to Apple's servers located outside your country/region. This data transfer is managed by Apple Inc. and is subject to Apple's privacy policy and terms of service. You can disable iCloud backup at any time in settings to stop cross-border data transfer
 - iCloud data is protected by Apple's privacy policy and terms of service
@@ -178,4 +179,4 @@ If you have any questions or suggestions about this privacy policy, please conta
 
 ---
 
-**Important Notice:** Dawnary's core functionality is completely offline, and all your data is securely stored on your device by default. If you enable iCloud Sync, data will be synced across your devices through Apple's iCloud service. Optional location and weather metadata is collected only with your explicit consent, and we do not upload your data to our own third-party servers.
+**Important Notice:** Dawnary's core functionality is completely offline, and all your data is securely stored on your device by default. If you enable iCloud Sync, diary data, companion letters, user impressions, personal memory, personal information, and related data will be synced across your devices through Apple's iCloud service. Optional location and weather metadata is collected only with your explicit consent, and we do not upload your data to our own third-party servers.
