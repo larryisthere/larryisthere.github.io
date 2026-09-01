@@ -1,5 +1,9 @@
 # Dawnary - Privacy Policy
 
+<script defer src="https://stats.zhxl.me/script.js" data-website-id="7db62e00-6ce8-458f-ba50-d8bc3babf824" data-domains="zhxl.me"></script>
+
+> Website visit analytics are described in the [Website Privacy Notice](/privacy/). No diary content or app data is collected.
+
 **Effective Date:** January 23, 2025  
 **Last Updated:** May 5, 2026
 

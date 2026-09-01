@@ -1,5 +1,9 @@
 # Dawnary - 개인정보 보호정책
 
+<script defer src="https://stats.zhxl.me/script.js" data-website-id="7db62e00-6ce8-458f-ba50-d8bc3babf824" data-domains="zhxl.me"></script>
+
+> 웹사이트 방문 분석에 대한 내용은 [웹사이트 개인정보 안내](/privacy/)에서 확인할 수 있습니다. 일기 내용이나 앱 데이터는 수집하지 않습니다.
+
 **시행일:** 2025년 1월 23일  
 **최종 업데이트:** 2026년 5월 5일
 

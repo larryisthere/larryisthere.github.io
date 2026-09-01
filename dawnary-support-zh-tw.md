@@ -1,5 +1,9 @@
 # Dawnary - 支援資訊
 
+<script defer src="https://stats.zhxl.me/script.js" data-website-id="7db62e00-6ce8-458f-ba50-d8bc3babf824" data-domains="zhxl.me"></script>
+
+> 網站造訪統計說明請見[網站隱私](/privacy/)。統計不會收集日記內容或應用程式資料。
+
 ## 應用簡介
 
 Dawnary 是一款專注於個人日記記錄的移動應用程式。我們致力於為您提供一個極簡、治癒的寫作空間，讓您能夠輕鬆記錄生活中的每一個瞬間。

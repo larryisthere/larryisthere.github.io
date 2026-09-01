@@ -1,5 +1,9 @@
 # Dawnary - Support Information
 
+<script defer src="https://stats.zhxl.me/script.js" data-website-id="7db62e00-6ce8-458f-ba50-d8bc3babf824" data-domains="zhxl.me"></script>
+
+> Website visit analytics are described in the [Website Privacy Notice](/privacy/). No diary content or app data is collected.
+
 ## App Overview
 
 Dawnary is a mobile application focused on personal diary recording. We are committed to providing you with a minimalist and healing writing space, allowing you to easily record every moment in your life.

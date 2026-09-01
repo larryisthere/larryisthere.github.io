@@ -1,5 +1,9 @@
 # Dawnary - サポート情報
 
+<script defer src="https://stats.zhxl.me/script.js" data-website-id="7db62e00-6ce8-458f-ba50-d8bc3babf824" data-domains="zhxl.me"></script>
+
+> ウェブサイトのアクセス解析については、[サイトのプライバシー](/privacy/)をご覧ください。日記の内容やアプリのデータは収集しません。
+
 ## アプリ概要
 
 Dawnaryは、個人の日記記録に焦点を当てたモバイルアプリケーションです。私たちは、シンプルで癒しのライティングスペースを提供し、あなたが人生のあらゆる瞬間を簡単に記録できるようにすることを目指しています。

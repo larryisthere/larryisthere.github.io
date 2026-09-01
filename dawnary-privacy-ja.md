@@ -1,5 +1,9 @@
 # Dawnary - プライバシーポリシー
 
+<script defer src="https://stats.zhxl.me/script.js" data-website-id="7db62e00-6ce8-458f-ba50-d8bc3babf824" data-domains="zhxl.me"></script>
+
+> ウェブサイトのアクセス解析については、[サイトのプライバシー](/privacy/)をご覧ください。日記の内容やアプリのデータは収集しません。
+
 **発効日：** 2025年1月23日  
 **最終更新：** 2026年5月5日
 

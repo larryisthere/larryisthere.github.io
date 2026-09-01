@@ -1,5 +1,9 @@
 # Dawnary - 隐私政策
 
+<script defer src="https://stats.zhxl.me/script.js" data-website-id="7db62e00-6ce8-458f-ba50-d8bc3babf824" data-domains="zhxl.me"></script>
+
+> 网站访问统计说明见[网站隐私](/privacy/)。统计不会收集日记内容或应用数据。
+
 **生效日期：** 2025年1月23日  
 **最后更新：** 2026年5月5日
 

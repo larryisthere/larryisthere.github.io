@@ -1,5 +1,9 @@
 # Dawnary - 지원 정보
 
+<script defer src="https://stats.zhxl.me/script.js" data-website-id="7db62e00-6ce8-458f-ba50-d8bc3babf824" data-domains="zhxl.me"></script>
+
+> 웹사이트 방문 분석에 대한 내용은 [웹사이트 개인정보 안내](/privacy/)에서 확인할 수 있습니다. 일기 내용이나 앱 데이터는 수집하지 않습니다.
+
 ## 앱 개요
 
 Dawnary는 개인 일기 기록에 중점을 둔 모바일 애플리케이션입니다. 우리는 귀하에게 미니멀하고 치유적인 글쓰기 공간을 제공하여 인생의 모든 순간을 쉽게 기록할 수 있도록 최선을 다하고 있습니다.
