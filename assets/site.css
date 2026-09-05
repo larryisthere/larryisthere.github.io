@@ -171,9 +171,34 @@ p {
   max-width: 39rem;
 }
 
-.home-intro__role {
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 46px;
+}
+
+.profile__avatar {
+  width: 64px;
+  height: 64px;
+  flex: 0 0 64px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.profile__identity {
+  display: grid;
+  gap: 1px;
+}
+
+.profile__identity strong {
+  font-size: 0.96rem;
+  font-weight: 650;
+}
+
+.profile__identity span {
   color: var(--muted);
-  font-size: 0.92rem;
+  font-size: 0.86rem;
 }
 
 .work-list,
@@ -187,8 +212,8 @@ p {
 
 .work-item {
   display: grid;
-  grid-template-columns: 132px 1fr;
-  gap: 22px;
+  grid-template-columns: 108px 118px 1fr;
+  gap: 18px;
   padding: 20px 0;
   border-top: 1px solid var(--line);
 }
@@ -199,6 +224,13 @@ p {
 
 .work-item__name {
   font-weight: 650;
+}
+
+.work-item__date {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
 }
 
 .work-item__name a {
@@ -419,6 +451,10 @@ p {
   .feature-list li {
     grid-template-columns: 1fr;
     gap: 5px;
+  }
+
+  .work-item__date {
+    margin-bottom: 2px;
   }
 
   .writing-link {

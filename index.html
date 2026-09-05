@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="晓亮的个人主页：独立开发者，Dawnary、FileFacet 与全景记账的作者。" />
     <link rel="canonical" href="https://zhxl.me/" />
+    <link rel="icon" type="image/png" href="/assets/favicon.png" />
     <script defer src="https://stats.zhxl.me/script.js" data-website-id="7db62e00-6ce8-458f-ba50-d8bc3babf824" data-domains="zhxl.me"></script>
     <link rel="stylesheet" href="/assets/site.css" />
     <title>晓亮 · 独立开发者</title>
@@ -23,7 +24,13 @@
 
     <main class="wrap">
       <section class="home-intro" aria-labelledby="intro-title">
-        <p class="home-intro__role">独立开发者</p>
+        <div class="profile">
+          <img class="profile__avatar" src="/assets/avatar.jpg" alt="晓亮的头像" width="64" height="64" />
+          <div class="profile__identity">
+            <strong>晓亮</strong>
+            <span>独立开发者</span>
+          </div>
+        </div>
         <h1 id="intro-title">你好，我是晓亮。</h1>
         <p class="lede">我喜欢从真实问题出发，做边界清楚、可以长期使用的软件。现在主要在维护 Dawnary、FileFacet 和全景记账。</p>
       </section>
@@ -32,6 +39,7 @@
         <h2 id="work-title">作品</h2>
         <ol class="work-list">
           <li class="work-item">
+            <div class="work-item__date"><time datetime="2025-12">2025.12—至今</time></div>
             <div class="work-item__name"><a href="/dawnary/" data-umami-event="project-open" data-umami-event-project="dawnary">Dawnary ↗</a></div>
             <div class="work-item__body">
               <p>一款安静、私人、为长期记录而生的日记。</p>
@@ -39,6 +47,7 @@
             </div>
           </li>
           <li class="work-item">
+            <div class="work-item__date"><time datetime="2026-07">2026.07—至今</time></div>
             <div class="work-item__name"><a href="/filefacet/" data-umami-event="project-open" data-umami-event-project="filefacet">FileFacet ↗</a></div>
             <div class="work-item__body">
               <p>用层级标签整理散落在不同文件夹里的视频。</p>
@@ -46,6 +55,7 @@
             </div>
           </li>
           <li class="work-item">
+            <div class="work-item__date"><time datetime="2026-03">2026.03—至今</time></div>
             <div class="work-item__name"><a href="/assetly/" data-umami-event="project-open" data-umami-event-project="assetly">全景记账 ↗</a></div>
             <div class="work-item__body">
               <p>在同一个视图里记录资产、负债与现金流。</p>
