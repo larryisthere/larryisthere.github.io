@@ -1,6 +1,8 @@
 # Dawnary - 지원 정보
 
 <script defer src="https://stats.zhxl.me/script.js" data-website-id="7db62e00-6ce8-458f-ba50-d8bc3babf824" data-domains="zhxl.me"></script>
+<script src="/assets/theme.js?v=20260905-1"></script>
+<link rel="stylesheet" href="/assets/theme.css?v=20260905-1" />
 
 > 웹사이트 방문 분석에 대한 내용은 [웹사이트 개인정보 안내](/privacy/)에서 확인할 수 있습니다. 일기 내용이나 앱 데이터는 수집하지 않습니다.
 
