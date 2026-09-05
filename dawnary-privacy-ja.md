@@ -1,8 +1,8 @@
 # Dawnary - プライバシーポリシー
 
 <script defer src="https://stats.zhxl.me/script.js" data-website-id="7db62e00-6ce8-458f-ba50-d8bc3babf824" data-domains="zhxl.me"></script>
-<script src="/assets/theme.js?v=20260905-1"></script>
-<link rel="stylesheet" href="/assets/theme.css?v=20260905-1" />
+<script src="/assets/theme.js?v=20260905-2"></script>
+<link rel="stylesheet" href="/assets/theme.css?v=20260905-2" />
 
 > ウェブサイトのアクセス解析については、[サイトのプライバシー](/privacy/)をご覧ください。日記の内容やアプリのデータは収集しません。
 

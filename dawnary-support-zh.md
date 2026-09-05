@@ -1,8 +1,8 @@
 # Dawnary - 支持信息
 
 <script defer src="https://stats.zhxl.me/script.js" data-website-id="7db62e00-6ce8-458f-ba50-d8bc3babf824" data-domains="zhxl.me"></script>
-<script src="/assets/theme.js?v=20260905-1"></script>
-<link rel="stylesheet" href="/assets/theme.css?v=20260905-1" />
+<script src="/assets/theme.js?v=20260905-2"></script>
+<link rel="stylesheet" href="/assets/theme.css?v=20260905-2" />
 
 > 网站访问统计说明见[网站隐私](/privacy/)。统计不会收集日记内容或应用数据。
 

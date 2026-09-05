@@ -3,7 +3,8 @@
   const system = window.matchMedia('(prefers-color-scheme: dark)');
   const valid = value => ['system', 'light', 'dark'].includes(value);
   let preference = 'system';
-  let select;
+  let button;
+  let english = false;
   try {
     const saved = localStorage.getItem(key);
     if (valid(saved)) preference = saved;
@@ -12,7 +13,14 @@
   const apply = () => {
     document.documentElement.dataset.theme = preference === 'system'
       ? (system.matches ? 'dark' : 'light') : preference;
-    if (select) select.value = preference;
+    if (button) {
+      const dark = document.documentElement.dataset.theme === 'dark';
+      const label = english
+        ? (dark ? 'Switch to light mode' : 'Switch to dark mode')
+        : (dark ? '切换为浅色模式' : '切换为深色模式');
+      button.setAttribute('aria-label', label);
+      button.title = label;
+    }
   };
   apply();
   system.addEventListener('change', apply);
@@ -24,30 +32,26 @@
   });
 
   document.addEventListener('DOMContentLoaded', () => {
-    const english = document.documentElement.lang.startsWith('en');
-    const control = document.createElement('label');
-    control.className = 'theme-control';
-    const label = document.createElement('span');
-    label.textContent = english ? 'Appearance' : '外观';
-    select = document.createElement('select');
-    select.name = 'appearance';
-    const names = english ? ['System', 'Light', 'Dark'] : ['跟随系统', '浅色', '深色'];
-    ['system', 'light', 'dark'].forEach((value, i) => {
-      select.add(new Option(names[i], value));
-    });
-    select.value = preference;
-    select.addEventListener('change', () => {
-      preference = select.value;
+    english = document.documentElement.lang.startsWith('en');
+    button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'theme-toggle';
+    const icon = document.createElement('span');
+    icon.className = 'theme-toggle__icon';
+    icon.setAttribute('aria-hidden', 'true');
+    button.append(icon);
+    button.addEventListener('click', () => {
+      preference = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
       try { localStorage.setItem(key, preference); } catch { /* Apply for this page. */ }
       apply();
     });
-    control.append(label, select);
+    apply();
     const footer = document.querySelector('.footer-row, .footer');
-    if (footer) footer.append(control);
+    if (footer) footer.append(button);
     else {
       const end = document.createElement('footer');
       end.className = 'theme-footer';
-      end.append(control);
+      end.append(button);
       document.body.append(end);
     }
   });
