@@ -79,77 +79,84 @@
             margin-bottom: 20px;
         }
     </style>
+    <style>
+        a { color: #007AFF; }
+        table { width: 100%; border-collapse: collapse; margin: 10px 0 20px; font-size: 15px; }
+        th, td { border: 1px solid #e0e0e0; padding: 8px 10px; text-align: left; vertical-align: top; color: #666; }
+        th { background: #f8f9fa; color: #333; }
+        @media (max-width: 600px) { .container { padding: 24px 16px; } table { font-size: 14px; } }
+    </style>
     <link rel="stylesheet" href="/assets/theme.css?v=20260905-2" />
 </head>
 <body>
     <div class="container">
         <h1>AI 助手连接数据同步协议</h1>
-        <p class="last-updated">版本：1.0　生效日期：发布日　运营者：Xiaoliang Zhang（个人开发者）　联系方式：<a href="mailto:support@zhoubian.com" style="color: #007AFF;">support@zhoubian.com</a></p>
-
-        <p>“AI 助手连接”是全景记账会员功能，需要你单独开启。开启后，你可以授权自己选择的 AI 助手读取你的账本。请仔细阅读本协议。勾选同意即表示你<strong>单独同意</strong>下列敏感个人信息的处理。</p>
-
-        <h2>一、我们会同步哪些信息</h2>
-        <p>开启后，我们会把以下信息从你的设备同步到全景记账 MCP 服务器：</p>
+        <p class="last-updated">版本：1.0　生效日期：2026-10-15　运营者：Xiaoliang Zhang（个人开发者）　联系方式：<a href="mailto:support@zhoubian.com">support@zhoubian.com</a></p>
+        <p>“AI 助手连接”是全景记账会员功能，需要你单独开启。开启后，你可以授权自己选择的 AI 助手读取你的账本，并让它向你提出修改建议。请仔细阅读本协议。勾选同意即表示你<strong>单独同意</strong>下列敏感个人信息的处理。</p>
+        <h2>一、我们会处理哪些信息</h2>
+        <p>开启后，我们会把以下信息从你的设备同步到全景记账 AI 助手连接服务器：</p>
         <ul>
             <li>资产：名称、备注、类型、标签、币种、数量、单价、当前价值、隐藏和归档状态、相关日期。</li>
             <li>负债：名称、备注、类型、标签、币种、当前余额、利率、起始日期；信用卡还包括额度、出账日和还款日。</li>
             <li>收支计划：名称、备注、类型、金额、币种、周期与日期、关联账户、自动执行设置、最近一次执行的日期和金额。</li>
             <li>汇总与参考：展示货币、总资产、总负债、净资产、所用汇率。</li>
-            <li>账户标识：由 Apple 登录生成的匿名标识。我们不获取你的邮箱和姓名。</li>
+        </ul>
+        <p>为提供本功能，我们还会处理：</p>
+        <ul>
+            <li>账户标识：由 Apple 登录生成的匿名标识，我们只保存它的摘要。我们不获取你的邮箱和姓名。</li>
+            <li>会员信息：App Store 交易编号、会员产品和到期时间，用于确认你的会员资格。我们不接触你的付款信息。</li>
+            <li>AI 助手信息：你为每个助手填写的名称、授予的权限；AI 助手提交的修改建议内容。</li>
+            <li>访问记录：哪个助手在何时调用了哪项功能、结果如何；服务器网络日志中的 IP 地址和访问时间。</li>
         </ul>
         <p>以下信息<strong>不会同步</strong>：快照、变更历史、实际流水、资产核对草稿、提醒设置、本机设置。</p>
-        <div class="highlight"><p>上述资产、负债和收支信息属于<strong>敏感个人信息</strong>（金融账户与财产信息）。一旦泄露或被非法使用，可能导致你的财产受到损害。我们只为实现本功能处理这些信息。</p></div>
-
+        <p>第 1 至 4 项及第 7 项中的修改建议属于<strong>敏感个人信息</strong>（金融账户与财产信息）。一旦泄露或被非法使用，可能导致你的财产受到损害。我们只为实现本功能处理这些信息。</p>
         <h2>二、用途</h2>
         <ul>
-            <li>让你授权的 AI 助手读取上述信息，以便回答你的问题、整理账本。</li>
-            <li>接收 AI 助手提出的修改建议（提案），供你在全景记账 App 内确认。<strong>未经你在 App 内确认，任何提案都不会修改你的账本。</strong></li>
+            <li>让你授权的 AI 助手读取第一条第 1 至 4 项信息，以便回答你的问题、整理账本。</li>
+            <li>接收 AI 助手提出的修改建议，在 App 的“待确认修改”中供你确认。<strong>未经你在 App 内确认，任何修改建议都不会改动你的账本。</strong></li>
+            <li>确认会员资格、防止滥用、保障服务安全，以及让你在 App 内查看访问记录。</li>
         </ul>
         <p>我们不会将这些信息用于广告、用户画像、模型训练，也不会出售给任何人。</p>
-
         <h2>三、提供给 AI 助手服务商（可能位于境外）</h2>
         <ul>
-            <li>你在 App 中添加并授权的 AI 助手，会从我们的服务器读取第一条所列信息。这些信息因此会提供给<strong>该 AI 助手的服务商</strong>。</li>
+            <li>你在 App 中添加并授权的 AI 助手，会从我们的服务器读取第一条第 1 至 4 项信息。这些信息因此会提供给<strong>该 AI 助手的服务商</strong>。</li>
             <li>AI 助手由你自行选择。其服务商可能位于中华人民共和国境外，例如附录所列的服务商。</li>
             <li>信息到达服务商后，按该服务商自己的条款和隐私政策处理，不受我们控制。请在使用前阅读相应服务商的条款。</li>
             <li>你可以按服务商公布的方式，向其行使查阅、删除等权利。</li>
             <li>勾选同意即表示你单独同意：将上述信息提供给你今后授权的 AI 助手服务商，包括位于境外的服务商。</li>
         </ul>
-
         <h2>四、存储地点与期限</h2>
         <ul>
-            <li>MCP 服务器位于中华人民共和国境内。信息加密存储，每位用户使用独立的密钥。</li>
-            <li>你关闭本功能时，我们会立即删除服务器上的信息、待处理的提案、全部授权和你的密钥。备份将因密钥删除而无法解密，并在 7 天内清除。</li>
+            <li>服务器位于中华人民共和国境内。资产、负债、收支信息和修改建议加密存储，每位用户使用独立的密钥。</li>
+            <li>你关闭本功能时，我们会立即删除你在服务器上的账户及全部信息，包括同步的信息、修改建议、全部 AI 助手授权和你的密钥。服务器磁盘备份最长保留 7 天，你的信息会在 7 天内随备份到期一并清除。</li>
             <li>会员到期后，AI 助手立即无法访问，同步停止。信息保留 30 天，期间续费即可恢复；30 天后自动删除。</li>
-            <li>访问记录只记录哪个助手在何时调用了哪项功能，不包含财务内容，保留 6 个月。</li>
+            <li>修改建议 7 天内未处理会自动失效；已处理或失效的修改建议再保留 30 天后删除。</li>
+            <li>访问记录只记录哪个助手在何时调用了哪项功能，不包含财务内容。访问记录和网络日志保留 6 个月，你关闭本功能后也按期保留，到期删除。</li>
         </ul>
-
         <h2>五、你的权利</h2>
         <ul>
             <li>随时在 App 中撤销任意 AI 助手，或关闭本功能。撤回同意不影响撤回前已进行的处理。</li>
             <li>在 App 中查看访问记录。</li>
+            <li>关闭本功能即删除你在服务器上的账户，无需另行申请。</li>
             <li>通过上方联系方式，对处理活动进行查询、更正、删除或投诉。我们将在 15 个工作日内答复。</li>
         </ul>
-
         <h2>六、安全</h2>
         <p>我们采取传输加密、存储加密、访问控制和审计措施。如果发生安全事件，我们将及时采取补救措施，并依法通知你和主管部门。</p>
-
         <h2>七、适用对象</h2>
         <p>本功能仅面向年满 18 周岁的用户。</p>
-
         <h2>八、变更</h2>
         <p>如果数据范围、用途或接收方发生实质变化，我们会再次征求你的同意。</p>
-
         <h2>附录：常见 AI 助手服务商（不完全列举）</h2>
-        <ul>
-            <li>ChatGPT、Codex：OpenAI（美国）　<a href="https://openai.com/policies/privacy-policy/" style="color: #007AFF;">隐私政策</a></li>
-            <li>Claude、Claude Code：Anthropic（美国）　<a href="https://www.anthropic.com/legal/privacy" style="color: #007AFF;">隐私政策</a></li>
-            <li>Cursor：Anysphere（美国）　<a href="https://cursor.com/privacy" style="color: #007AFF;">隐私政策</a></li>
-        </ul>
+        <table>
+            <tr><th>助手</th><th>服务商</th><th>所在地</th><th>隐私政策</th></tr>
+            <tr><td>ChatGPT、Codex</td><td>OpenAI</td><td>美国</td><td><a href="https://openai.com/policies/privacy-policy/">隐私政策</a></td></tr>
+            <tr><td>Claude、Claude Code</td><td>Anthropic</td><td>美国</td><td><a href="https://www.anthropic.com/legal/privacy">隐私政策</a></td></tr>
+            <tr><td>Cursor</td><td>Anysphere</td><td>美国</td><td><a href="https://cursor.com/privacy">隐私政策</a></td></tr>
+        </table>
 
         <div class="footer">
             <p>© 2026 全景记账. 保留所有权利.</p>
-            <p><a href="assetly-privacy-zh.html" style="color: #007AFF; text-decoration: none;">隐私政策</a></p>
+            <p><a href="assetly-privacy-zh.html" style="text-decoration: none;">隐私政策</a></p>
         </div>
     </div>
 </body>
