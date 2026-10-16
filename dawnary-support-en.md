@@ -76,9 +76,9 @@ We take your privacy seriously. For detailed privacy policy, please visit:
 
 ## Version Information
 
-- **Current Version:** 1.0.0
+- **Versions being prepared for review (not yet released):** iOS 1.1.20 / macOS 1.1.25
 - **Bundle ID:** com.larryisthere.diary
-- **Minimum System Requirements:** iOS 15.0 or later
+- **System requirements for these new versions:** iOS 17.0 or later / macOS 13.5 or later. Compatibility for an older installed version remains specific to that version.
 
 ## Update Log
 
@@ -86,4 +86,4 @@ We continuously improve Dawnary and regularly release updates to fix issues and 
 
 ---
 
-**Last Updated:** April 2, 2026
+**Last Updated:** October 16, 2026
