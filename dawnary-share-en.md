@@ -9,7 +9,7 @@ Share how you journal with Dawnary on Xiaohongshu (RED) and get **one year of me
 ## How to join
 
 1. Post a note about Dawnary on Xiaohongshu: why you keep a diary, what you like about Dawnary. Words, screenshots or photos all work.
-2. Mention the official Dawnary account in the note (Xiaohongshu ID: **TBD**).
+2. Mention the official Dawnary account in the note (Xiaohongshu ID: **larryisthere**).
 3. After posting, send the note's link to the official account by direct message.
 4. Within 3 business days we'll reply with a one-year membership code.
 
