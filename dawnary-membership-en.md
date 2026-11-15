@@ -14,11 +14,11 @@ Membership starts the first time you use a version of Dawnary that has it. It la
 
 ### Write on 7 days a month
 
-Write on 7 days in a calendar month and the next month is yours. Length doesn't matter, and the days don't need to be in a row. The seven dots on Perks show this month's progress.
+Write on 7 days in a calendar month and the next month is yours. Length doesn't matter, and the days don't need to be in a row. The seven dots on Get Membership Free show this month's progress.
 
 ### Share Dawnary
 
-Share how you journal with Dawnary on Xiaohongshu (RED) to get a year of membership. See the [sharing event](/dawnary-share-en.html).
+Share how you journal with Dawnary on Xiaohongshu (RED) to get a year of membership for one post, or lifetime membership for ten. See the [sharing event](/dawnary-share-en.html).
 
 ### One year
 
@@ -34,7 +34,7 @@ One purchase, valid forever. Nothing more to do.
 
 ## Your devices
 
-Purchases and redeemed codes belong to your Apple Account, so membership works on every iPhone, iPad and Mac signed in to it. On a new device, tap Restore Purchases on Perks.
+Purchases and redeemed codes belong to your Apple Account, so membership works on every iPhone, iPad and Mac signed in to it. On a new device, tap Restore Purchases on Get Membership Free.
 
 ## When membership ends
 
@@ -43,11 +43,11 @@ Purchases and redeemed codes belong to your Apple Account, so membership works o
 - Nothing you're in the middle of writing is lost when membership ends.
 - Writing on 7 days, sharing or buying brings it back.
 
-Before it ends, Me and Perks show the date. If notifications are on, one reminder also arrives 3 days before.
+Before it ends, Me and Get Membership Free show the date. If notifications are on, one reminder also arrives 3 days before.
 
 ## Redeem a code
 
-Open Dawnary, go to Me → Perks → Redeem Code and enter the code. Codes come from the App Store and expire, so please redeem soon after you receive one.
+Open Dawnary, go to Me → Get Membership Free → Redeem Code and enter the code. Codes come from the App Store and expire, so please redeem soon after you receive one.
 
 ---
 
