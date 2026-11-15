@@ -8,7 +8,7 @@
 
 ## App Overview
 
-Dawnary is a mobile application focused on personal diary recording. We are committed to providing you with a minimalist and healing writing space, allowing you to easily record every moment in your life.
+Dawnary is a journal app for iPhone, iPad, and Mac. We are committed to providing you with a minimalist and healing writing space, allowing you to easily record every moment in your life.
 
 ## Frequently Asked Questions
 
@@ -64,7 +64,7 @@ No. Dawnary's core functionality is completely offline and works without an inte
 
 If you encounter any issues or have suggestions, please contact us through:
 
-**Email:** larryisthere@gmail.com
+**Email:** [larryisthere@gmail.com](mailto:larryisthere@gmail.com)
 
 We will reply to your email within 24-48 hours.
 
@@ -72,13 +72,13 @@ We will reply to your email within 24-48 hours.
 
 We take your privacy seriously. For detailed privacy policy, please visit:
 
-**Privacy Policy:** https://larryisthere.github.io/dawnary-privacy.html
+**Privacy Policy:** [Dawnary Privacy Policy](/dawnary-privacy-en.html)
 
 ## Version Information
 
-- **Versions being prepared for review (not yet released):** iOS 1.1.20 / macOS 1.1.25
+- **Current version and compatibility:** See [Dawnary on the App Store](https://apps.apple.com/app/id6754510556) for the latest release and device requirements.
 - **Bundle ID:** com.larryisthere.diary
-- **System requirements for these new versions:** iOS 17.0 or later / macOS 13.5 or later. Compatibility for an older installed version remains specific to that version.
+- **Older installed versions:** Compatibility depends on the version installed.
 
 ## Update Log
 
@@ -86,4 +86,4 @@ We continuously improve Dawnary and regularly release updates to fix issues and 
 
 ---
 
-**Last Updated:** October 16, 2026
+**Last Updated:** November 15, 2026
