@@ -32,10 +32,26 @@
 /* Keep Chinese phrases intact without changing other product pages. */
 html[lang="zh-CN"] .product-title { text-wrap: balance; }
 .dawnary-title-phrase { white-space: nowrap; }
-.dawnary-platforms { max-width: 36rem; line-height: 1.7; }
 body[data-accent="dawnary"] .nav__links a,
 body[data-accent="dawnary"] .product-actions .text-link {
   display: inline-flex;
   align-items: center;
   min-height: 44px;
+}
+
+/* Supported devices: quiet line icons under the actions. */
+.dawnary-devices {
+  display: flex;
+  align-items: flex-end;
+  gap: 14px;
+  margin: -26px 0 44px;
+  color: var(--muted, #72726d);
+}
+.dawnary-devices svg {
+  display: block;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
