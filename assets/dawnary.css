@@ -1,0 +1,30 @@
+/* Dawnary page only; shared site and theme styles remain unchanged. */
+.dawnary-phones {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  align-items: start;
+}
+.dawnary-phones img,
+.dawnary-mac-shots img {
+  height: auto;
+}
+.dawnary-phones img:nth-child(2) { margin-top: 32px; }
+.dawnary-mac-shots { display: grid; gap: 28px; }
+@media (max-width: 640px) {
+  .dawnary-phones {
+    grid-template-columns: none;
+    grid-auto-flow: column;
+    grid-auto-columns: 72%;
+    gap: 16px;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    padding-block: 4px 20px;
+  }
+  .dawnary-phones img {
+    scroll-snap-align: start;
+  }
+  .dawnary-phones img:nth-child(2) { margin-top: 0; }
+  .dawnary-mac-shots { gap: 20px; }
+}
