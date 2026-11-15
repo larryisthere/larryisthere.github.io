@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{% if page.url contains '-en' %}en{% elsif page.url contains '-ja' %}ja{% elsif page.url contains '-ko' %}ko{% elsif page.url contains '-zh-tw' %}zh-TW{% else %}zh-CN{% endif %}">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title | default: "Dawnary" }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <!-- The theme's default layout without its site-title header: these
+         pages open with their own title. -->
+    <div class="container-lg px-3 my-5 markdown-body">
+      {{ content }}
+    </div>
+  </body>
+</html>

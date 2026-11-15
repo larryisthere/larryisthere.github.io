@@ -18,7 +18,7 @@
 
 ### 分享 Dawnary
 
-在小红书分享你用 Dawnary 写日记的感受，发 1 篇得一年会员，累计 10 篇得终身会员。详见 [分享活动](/dawnary-share-zh.html)。
+在小红书分享你用 Dawnary 写日记的感受，就能获得会员。活动按期进行，每期的要求和时间见 [分享活动](/dawnary-share-zh.html)。
 
 ### 一年会员
 
