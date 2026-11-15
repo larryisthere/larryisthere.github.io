@@ -18,7 +18,7 @@ Write on 7 days in a calendar month and the next month is yours. Length doesn't 
 
 ### Share Dawnary
 
-Share how you journal with Dawnary on Xiaohongshu (RED) to get a year of membership for one post, or lifetime membership for ten. See the [sharing event](/dawnary-share-en.html).
+Share how you journal with Dawnary on Xiaohongshu (RED) to get membership. The event runs in rounds; see the [sharing event](/dawnary-share-en.html) for this round's requirements and dates.
 
 ### One year
 

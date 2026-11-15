@@ -1,15 +1,17 @@
-# Dawnary Sharing Event
+# Dawnary Sharing Event · Round 1
 
 <script defer src="https://stats.zhxl.me/script.js" data-website-id="7db62e00-6ce8-458f-ba50-d8bc3babf824" data-domains="zhxl.me"></script>
 <script src="/assets/theme.js?v=20260905-2"></script>
 <link rel="stylesheet" href="/assets/theme.css?v=20260905-2" />
+
+**Runs November 15 – December 31, 2026** (China Standard Time)
 
 Share how you journal with Dawnary on Xiaohongshu (RED) and get membership:
 
 | Share | Get |
 | --- | --- |
 | 1 note | **One year of membership** |
-| 10 notes in total (on different days) | **Lifetime membership** |
+| 10 notes in total this round (on different days) | **Lifetime membership** |
 
 You can get both: the year first, then lifetime once you reach 10 notes.
 
@@ -20,7 +22,7 @@ You can get both: the year first, then lifetime once you reach 10 notes.
 3. After posting, send the note's link to the official account by direct message.
 4. Within 3 business days we'll reply with a membership code.
 
-For lifetime membership, keep sharing and mention the official account each time; at most one note a day counts. Once you have 10, send all 10 links to the official account and we'll reply with a lifetime code.
+For lifetime membership, keep sharing and mention the official account each time; at most one note a day counts. Once you have 10, all posted during this round, send all 10 links to the official account and we'll reply with a lifetime code.
 
 ## How to redeem
 
@@ -36,7 +38,9 @@ Codes come from the App Store. Once redeemed, membership belongs to your Apple A
 - The one-year membership doesn't renew, and you're never charged when it ends. Lifetime membership never ends.
 - When membership ends, every diary you've written can still be read, searched, synced and exported.
 - Codes expire; the App Store redeem page shows the date. Please redeem soon after you receive one.
-- The event may change or end; this page is the reference.
+- The event runs in rounds, and each round's requirements may differ. Only notes posted during this round count; you can still send links up to 7 days after it ends.
+- Membership you've already received keeps its terms; later rounds don't change it.
+- The next round will be announced on this page.
 
 Questions? See the [support page](/dawnary-support-en.html).
 
