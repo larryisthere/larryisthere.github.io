@@ -523,3 +523,31 @@ p {
     scroll-behavior: auto;
   }
 }
+
+/* GitHub mark: header link and secondary hero button on open-source product pages. */
+.github-mark {
+  display: inline-block;
+  width: 1.15em;
+  height: 1.15em;
+  flex: 0 0 auto;
+  background: currentColor;
+  -webkit-mask: url('/assets/remixicon/github-fill.svg') center / contain no-repeat;
+  mask: url('/assets/remixicon/github-fill.svg') center / contain no-repeat;
+}
+
+.nav__links .nav__github .github-mark {
+  margin-right: 6px;
+  vertical-align: -0.2em;
+}
+
+.button--github {
+  gap: 8px;
+  background: transparent;
+  color: var(--text);
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+
+.button--github:hover {
+  filter: none;
+  background: var(--surface);
+}
