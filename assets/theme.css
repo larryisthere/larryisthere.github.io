@@ -72,11 +72,11 @@
 }
 
 :root[data-theme="dark"] body[data-accent="dawnary"] { --link: #e5b77f; }
-:root[data-theme="dark"] body[data-accent="filefacet"] { --link: #8cbfff; }
+:root[data-theme="dark"] body[data-accent="tagivy"] { --link: #8cbfff; }
 :root[data-theme="dark"] body[data-accent="assetly"] { --link: #bab3ff; }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) body[data-accent="dawnary"] { --link: #e5b77f; }
-  :root:not([data-theme="light"]) body[data-accent="filefacet"] { --link: #8cbfff; }
+  :root:not([data-theme="light"]) body[data-accent="tagivy"] { --link: #8cbfff; }
   :root:not([data-theme="light"]) body[data-accent="assetly"] { --link: #bab3ff; }
 }
 

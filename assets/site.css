@@ -36,7 +36,16 @@ body[data-accent="dawnary"] {
   --link: #8f541e;
 }
 
-body[data-accent="filefacet"] {
+/* Tagivy: wrap the Chinese headline only at phrase boundaries, and show platform facts under the actions. */
+body[data-accent="tagivy"] .product-title { text-wrap: balance; }
+html[lang="zh-CN"] body[data-accent="tagivy"] .product-title { word-break: keep-all; }
+.product-meta {
+  margin: -26px 0 44px;
+  color: var(--muted, #72726d);
+  font-size: 0.9rem;
+}
+
+body[data-accent="tagivy"] {
   --accent: #0969da;
   --accent-soft: #edf6ff;
   --link: #0969da;
